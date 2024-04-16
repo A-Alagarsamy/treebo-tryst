@@ -99,52 +99,105 @@ h1{
     font-weight: 200px;
     
 }
-
-@media screen and (max-width:800px) 
-{
-    body{
-        background-color: white;
+@media screen and (max-width:600px) {
+    body
+    {
+          background-color: #ffdab9;
     }
     ul
-    {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        list-style-type:none;
-        
-        overflow: hidden;
-        text-decoration: none;
-        margin-top: 0px;
-        margin-left: 00px;
-       
-    }
-    li
-    {
-        float: none;
-        
-    }
-    li a
-    {
-        display: block;
-        margin-top: 0px;
-        text-decoration: none;
-        text-align: center;
-        padding: 5px 5px;
-        color: black;
-        font-family: "Comfortaa", sans-serif;
+{
+    margin: 0;
+    padding: 0;
     
-    }
-    .navbar
-    {
-        margin-left: 10px;
-    }
-    .navend
-    {
-        margin-right: 10px;  
-         
-    }
+    list-style-type: none;
+    
+    overflow: hidden;
+    text-decoration: none;   
+}
+li
+{
+    float: none;
+    
+}
+li a
+{
+    display: block;
+    margin-top: 2px;
+    text-decoration: none;
+    text-align: center;
+    padding: 4px 4px;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
 
 }
-
+.navbar
+{
+    margin-left: 10px;
+}
+.navend
+{
+    margin-right: 90px;  
+     
+}
+.container
+{
+    background-color: white;
+    margin: 4px;
+}
+.navfoot
+{
+  
+    margin-left: 10px;
+    position: relative;
+    
+    width: 100%;
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis:3%;
+    gap: 5px 5px;
+    margin-left: 40px;
+    justify-content: space-between;
+    
     
 
+}
+h3{
+    font-family: "Comfortaa", sans-serif;   
+    font-weight: 900px;
+    margin-left: 10px;
+}
+p{
+    color: lightgray;
+    margin-left: 10px;
+}
+.search
+{
+    display: flex;
+    position: absolute;
+    top: 500px; 
+    margin-left: 4px;
+    background-color: white;
+    gap: 10px 10px;
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.blue
+{
+    position: absolute;
+    bottom: 300px;
+    margin-left: 13px;
+}
+h1{
+    font-family: "Comfortaa", sans-serif; 
+    font-size: 30px;
+    font-weight: 100px;
+    
+}
+    
+}
