@@ -100,10 +100,7 @@ h1{
     
 }
 @media screen and (max-width:600px) {
-    body
-    {
-          background-color: #ffdab9;
-    }
+    
     ul
 {
     margin: 0;
