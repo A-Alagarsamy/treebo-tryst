@@ -1,0 +1,150 @@
+body
+{
+    background-color: #ffdab9;
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style-type: none;
+    
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 50px;
+   
+}
+li
+{
+    float: left;
+    
+}
+li a
+{
+    display: block;
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 14px;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
+
+}
+.navbar
+{
+    margin-left: 250px;
+}
+.navend
+{
+    margin-right: 150px;  
+     
+}
+.container
+{
+    background-color: white;
+    margin: 40px;
+}
+.navfoot
+{
+  
+    margin-left: 100px;
+    position: relative;
+    
+    width: 100%;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    gap: 40px 40px;
+    margin-left: 200px;
+    
+    
+
+}
+h3{
+    font-family: "Comfortaa", sans-serif;   
+    font-weight: 900px;
+    margin-left: 100px;
+}
+p{
+    color: lightgray;
+    margin-left: 100px;
+}
+.search
+{
+    display: flex;
+    position: absolute;
+    top: 500px; 
+    margin-left: 400px;
+    background-color: white;
+    gap: 40px 40px;
+    text-align: center;
+    width: 40%;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.blue
+{
+    position: absolute;
+    bottom: 300px;
+    margin-left: 300px;
+}
+h1{
+    font-family: "Comfortaa", sans-serif; 
+    font-size: 50px;
+    font-weight: 200px;
+    
+}
+
+@media screen and (max-width:800px) 
+{
+    body{
+        background-color: white;
+    }
+    ul
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        list-style-type:none;
+        
+        overflow: hidden;
+        text-decoration: none;
+        margin-top: 0px;
+        margin-left: 00px;
+       
+    }
+    li
+    {
+        float: none;
+        
+    }
+    li a
+    {
+        display: block;
+        margin-top: 0px;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px 5px;
+        color: black;
+        font-family: "Comfortaa", sans-serif;
+    
+    }
+    .navbar
+    {
+        margin-left: 10px;
+    }
+    .navend
+    {
+        margin-right: 10px;  
+         
+    }
+
+}
+
+    
+
