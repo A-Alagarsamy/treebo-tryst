@@ -86,12 +86,15 @@ p{
     width: 40%;
     padding: 20px;
     border-radius: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
    
 }
 .blue
 {
     position: absolute;
-    bottom: 300px;
+    bottom: 200px;
     margin-left: 300px;
 }
 h1{
@@ -189,6 +192,9 @@ p{
     width: 80%;
     padding: 20px;
     border-radius: 10px;
+    font-size: 10px;
+    color: black;
+    font-family: "Comfortaa", sans-serif;
    
 }
 .blue
